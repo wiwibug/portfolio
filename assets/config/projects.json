@@ -3,25 +3,16 @@
 
     {
       "id": 1,
-      "title": "Aravind Portfolio",
-      "description": "A unique terminal-style portfolio website that showcases skills and projects through an interactive command-line interface.",
-      "technologies": ["JavaScript", "CSS", "HTML"],
-      "category": "web",
-      "image": "./assets/projects/portfolio.jpg",
-      "githubUrl": "https://github.com/aravindvelikinti",
+      "title": "Asthma Watch",
+      "description": "An interactive dashboard to visualize the concentrations of different pollens and pollutants, as well as the rates of emergency department visits for asthma in France. The dashboard is automatically updated through a data pipeline integrating web scraping, storage, and interactive display.",
+      "technologies": ["Python", "Selenium", "BS4", "Dash", "Plotly", "CI/CD"],
+      "category": "Dashboard",
+      "image": "./assets/projects/recording.gif",
+      "githubUrl": "https://github.com/wiwibug/asthma_watch",
       
       "featured": true
-    },
- {
-  "id": 2,
-  "title": "E-Commerce Platform | Java Full Stack",
-  "description": "Developed a scalable E-Commerce web application using Java and Spring Boot, enabling users to browse products, manage carts, place orders, and complete secure payments. Designed RESTful APIs for product catalog, authentication, order management, and integrated MySQL with proper entity relationships.",
-  "technologies": ["Java", "Spring Boot", "REST APIs", "Spring Security", "MySQL", "Hibernate/JPA", "HTML", "CSS", "JavaScript", "Git", "Postman"],
-  "category": "Web Dev",
-  "image": "https://copilot.microsoft.com/th/id/BCO.52c5dfc4-c42e-478d-af9d-6fde41f02f31.png",
-  "githubUrl": "https://github.com/aravindvelikinti",
-  "featured": true
-}
+    }
+
 
   ],
   "categories": [
