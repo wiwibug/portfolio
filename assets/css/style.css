@@ -137,8 +137,8 @@ body {
 }
 
 .loading-logo-img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     animation: logoSpinIn 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
     opacity: 0;
@@ -894,7 +894,7 @@ body.loading .footer {
 }
 
 .nav-logo .logo-img {
-    height: 45px;
+    height: 60px;
     width: auto;
     transition: all var(--transition-normal);
     opacity: 1;
@@ -2829,7 +2829,7 @@ p.project-description {
 }
 
 .footer-logo .logo-img {
-    height: 35px;
+    height: 50px;
     width: auto;
     transition: all var(--transition-normal);
     opacity: 1;
