@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Belkis Portfolio</title>
+    <meta name="description"
+        content="Belkis ABDELATIF - Data Science student at Lille University (ILIS) + Polytech' Lille. View my projects and experience.">
+    <meta name="keywords"
+        content="Belkis, Abdelatif, Data Science, Data Engineer, Data Analyst, Python, R, AI, Machine Learning, Lille University, Portfolio, Web Development">
+    <meta name="author" content="Belkis Abdelatif">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Open Graph Meta Tags (Social Media) -->
+    <meta property="og:title" content="Belkis Abdelatif | Data Scientist">
+    <meta property="og:description"
+        content="Data Scientist passionate about creating innovative solutions and exploring AI. Check out my projects and experiences.">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Belkis Portfolio">
+
+  
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/png" href="./assets/ele/logo_variations/fav_icon.png" sizes="10px"/>
+    <link rel="icon" type="image/svg+xml" href="./assets/ele/logo_variations/fav_icon.png" />
+    <link rel="shortcut icon" href="./assets/ele/logo_variations/fav_icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/ele/logo_variations/web_icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    "name": "Belkis Abdelatif",
+"description": " I am a Master’s student in Health Data Science with a background in dentistry. I believe data is a powerful tool to uncover patterns, improve outcomes, and create more efficient systems.
+
+With skills in statistical modeling and data analysis, I’m eager to apply what I’ve learned to real-world challenges. I aim to contribute to projects that push boundaries and have a meaningful impact on people. ",
+"jobTitle": "Data Scientist",
+"url": "https://your-portfolio-link",
+"image": "./assets/ele/profile.jpg,
+"sameAs": [
+  "hhttps://github.com/wiwibug",
+  "https://www.linkedin.com/in/belkis-abdelatif/"
+],
+"alumniOf": {
+  "@type": "EducationalOrganization",
+  "name": "ILIS (Lille University) + Polytech' Lille"
+},
+"email": "belkis.abdelatif.etu@univ-lille.fr",
+"address": {
+  "@type": "PostalAddress",
+  "addressCountry": "France"
+}
+    </script>
+
+    <!-- Structured Data for Portfolio Projects -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Belkiss Projects",
+      "itemListElement": [
+        {
+          "@type": "SoftwareApplication",
+          "position": 1,
+          "name": "Scriptable iOS Widgets",
+          "description": "A collection of Scriptable app widgets for iOS that provide useful information and functionality right on your home screen.",
+          "programmingLanguage": ["JavaScript"],
+          "applicationCategory": "Productivity",
+          "operatingSystem": "iOS",
+          "url": "https://github.com/rushhiii/Scriptable-IOSWidgets",
+          "author": {
+            "@type": "Person",
+            "name": "Tirth Patel"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "position": 2,
+          "name": "Rushi Bashfolio",
+          "description": "A unique terminal-style portfolio website that showcases skills and projects through an interactive command-line interface.",
+          "programmingLanguage": ["JavaScript", "CSS", "HTML"],
+          "url": "https://rushi-bashfolio.netlify.app",
+          "author": {
+            "@type": "Person",
+            "name": "Tirth Patel"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "position": 3,
+          "name": "GitHub Widget",
+          "description": "Track your GitHub stats with dynamic layouts and theme support on iOS home screen using Scriptable.",
+          "programmingLanguage": ["JavaScript"],
+          "applicationCategory": "Productivity",
+          "operatingSystem": "iOS",
+          "url": "https://github.com/rushhiii/Scriptable-IOSWidgets",
+          "author": {
+            "@type": "Person",
+            "name": "Tirth Patel"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Stylesheets and Fonts -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/whiteboard-semibold.css"> -->
+    <!-- <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-solid.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/v7.0.0/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/regular.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <img src="./assets/ele/letter_logo_gl.png" alt="Logo" class="loading-logo-img">
+                <div class="loading-logo-glow"></div>
+            </div>
+            <div class="loading-text">
+                <h1 class="loading-title">
+                    <span class="loading-word">Welcome</span>
+                    <span class="loading-word">to</span>
+                    <span class="loading-word">my</span>
+                    <span class="loading-word">portfolio.</span>
+                </h1>
+            </div>
+        </div>
+        <div class="loading-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./assets/ele/letter_logo_gl.png" alt="Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <!-- <li><a href="./nexus_card.html" class="nav-link">Profile Card</a></li> -->
+            </ul>
+            <div class="nav-actions">
+                <a href="https://github.com/<wiwibug>" class="github-repo-btn" target="_blank"
+                    rel="noopener noreferrer" aria-label="Visit GitHub Repository">
+                    <!-- <i class="fab fa-link"></i> -->
+                    <span>Visit Repo</span>
+                    <!-- <i class="fa-solid fa-arrow-up-right-from-square"></i> -->
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                    <!-- <i class="fa-light fa-square-arrow-up-right"></i> -->
+                </a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="floating-elements">
+                <div class="floating-card parallax-medium" data-speed="2">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="floating-card parallax-fast" data-speed="3">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-card parallax-slow" data-speed="2.5">
+                    <i class="fas fa-terminal"></i>
+                </div>
+                <div class="floating-card parallax-medium" data-speed="1.5">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="floating-card parallax-fast" data-speed="1">
+                    <i class="fab fa-react"></i>
+                </div>
+                <!-- <div class="floating-card" data-speed="1.8">
+                    <i class="fab fa-css3-alt"></i>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Belkis</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typing-text">Data Scientist</span>
+                    <span class="cursor">|</span>
+                </p>
+                <p class="hero-description">
+                   I am a Master’s student in Health Data Science with a background in dentistry. I believe data is a powerful tool to uncover patterns, improve outcomes, and create more efficient systems.
+
+                <div class="hero-actions">
+                    <a href="https://github.com/wiwibug" class="btn btn-primary" target="_blank">
+                        <span>GitHub Profile</span>
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- <a href="./assets/rushi_tech_resume.pdf" class="btn btn-secondary" download="tirth_tech_resume.pdf"> -->
+                    <a href="./assets/resume/resume.pdf"
+                        class="btn btn-secondary" target="_blank">
+                        <span>Resume</span>
+                        <!-- <i class="fa-solid fa-up-right-from-square"></i> -->
+                        <i class="fa-solid fa-file-lines"></i>
+                        <!-- <i class="fa-solid fa-paperclip"></i> -->
+                        <!-- <i class="fas fa-download"></i> -->
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="./assets/ele/profile.jpg" alt="profile"
+                        class="profile-image" data-theme-image="true">
+                    <div class="image-glow"></div>
+                </div>
+                <div class="status-badge">
+                    <div class="status-indicator"></div>
+                    <!-- <span>Open to work</span> -->
+                    <!-- <span>On summer break</span> -->
+                    <!-- <span>Looking for Co=Op, Summer 2026</span> -->
+                    <span>Open to work
+                        <!-- <br>Looking for Co-Op, Summer 2026 -->
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Crafting Digital Experiences</h2>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-card large scroll-reveal-left scroll-stagger-1 glow-border">
+                    <div class="card-content">
+                        <h3>My Journey</h3>
+                        <p> Currently pursuing a Master’s in Health Data Science at Polytech Lille and ILIS – Université de Lille. With a background in dentistry, my perspective extends beyond clinical practice. I am now focused on applying data science to uncover insights, and contribute to the future of data-driven decision-making.</p>
+                        <!-- <h3>My Coding Journey</h3> -->
+                        <!-- <p>I still remember the first time I touched a computer with intention — it was in Grade 11. What started as curiosity about solving logic problems became my obsession. From barely knowing how to type to building automation tools and exploring C, C++, and UNIX, I'm now a 2nd Year Computer Science Student at Toronto Metropolitan University.</p> -->
+                        <div class="journey-stats">
+                            <div class="stat scroll-reveal-scale scroll-stagger-2">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Years Coding</span>
+                            </div>
+                            <div class="stat scroll-reveal-scale scroll-stagger-3">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Projects Built</span>
+                            </div>
+                            <!-- <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Repositories</span>
+                            </div> -->
+                            <!-- <div class="stat">
+                                <span class="stat-number">3.8</span>
+                                <span class="stat-label">GPA</span>
+                            </div> -->
+                            <div class="stat scroll-reveal-scale scroll-stagger-4">
+                                <span class="stat-number">ILIS + Polytech' Lille</span>
+                                <span class="stat-label">Université de Lille</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-card scroll-reveal-right scroll-stagger-2">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>Final Year Data Science<br>ILIS + Polytech' Lille</p>
+                        <!-- <p>2nd Year Computer Science Student<br>Toronto Metropolitan University</p> -->
+                        <span class="card-meta">2024 - Present</span>
+                    </div>
+                </div>
+
+                <div class="bento-card scroll-reveal-right scroll-stagger-3">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                            <!-- <i class="fas fa-code"></i> -->
+                        </div>
+                        <h3>Passion</h3>
+                        <!-- <h3>Focus Areas</h3> -->
+                        <div class="focus-tags">
+                            <span class="tag">ML & AI</span>
+                            <span class="tag">Data engineering</span>
+                            <span class="tag">Data Analysis</span>
+                            <!-- <span class="tag">UNIX</span> -->
+                        </div>
+                        <!-- <p style="font-style:italic;margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">Perfection isn't the goal. Precision is.</p> -->
+                    </div>
+                </div>
+
+            <div class="bento-card wide scroll-reveal scroll-stagger-4 glow-border">
+  <div class="card-content">
+    <h3>Tech Stack</h3>
+    <div class="tech-badges">
+
+      <!-- Python -->
+      <div class="tech-badge python scroll-reveal-scale scroll-stagger-1">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+             alt="Python"
+             style="width:24px;height:24px;">
+        <span>Python</span>
+      </div>
+
+      <!-- RStudio -->
+      <div class="tech-badge Rstudio scroll-reveal-scale scroll-stagger-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg"
+             alt="RStudio"
+             style="width:24px;height:24px;">
+        <span>RStudio</span>
+      </div>
+
+      <!-- FastAPI -->
+      <div class="tech-badge fastapi scroll-reveal-scale scroll-stagger-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+             alt="FastAPI"
+             style="width:24px;height:24px;">
+        <span>FastAPI</span>
+      </div>
+
+
+      <!-- MySQL -->
+      <div class="tech-badge mysql scroll-reveal-scale scroll-stagger-4">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/mysql/mysql-original.svg"
+             alt="MySQL"
+             style="width:24px;height:24px;">
+        <span>MySQL</span>
+      </div>
+
+      <!-- PostgreSQL -->
+      <div class="tech-badge PostgreSQL scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/postgresql/postgresql-original.svg"
+             alt="PostgreSQL"
+             style="width:24px;height:24px;">
+        <span>PostgreSQL</span>
+      </div>
+
+      <!-- Spark-->
+      <div class="tech-badge spark scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/apachespark/apachespark-original.svg"
+             alt="Apache Spark"
+             style="width:24px;height:24px;">
+        <span>Apache Spark</span>
+      </div>
+      
+      <!-- Airflow-->
+      <div class="tech-badge airflow scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/apacheairflow/apacheairflow-original.svg"
+             alt="Apache Airflow"
+             style="width:24px;height:24px;">
+        <span>Apache Airflow</span>
+      </div>
+
+      <!-- Databricks-->
+      <div class="tech-badge databricks scroll-reveal-scale scroll-stagger-5">
+        <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/databricks.svg"
+             alt="Databricks"
+             style="width:24px;height:24px;">
+        <span>Databricks</span>
+      </div>
+
+
+      <!-- Docker -->
+      <div class="tech-badge docker scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/docker/docker-original.svg"
+             alt="Docker"
+             style="width:24px;height:24px;">
+        <span>Docker</span>
+      </div>
+
+      <!-- Google Cloud -->
+      <div class="tech-badge googlecloud scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/googlecloud/googlecloud-original.svg"
+             alt="Google Cloud"
+             style="width:24px;height:24px;">
+        <span>Google Cloud</span>
+      </div>
+
+      <!-- Neo4j-->
+      <div class="tech-badge neo4j scroll-reveal-scale scroll-stagger-5">
+        <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/neo4j/neo4j-original.svg"
+             alt="Neo4j"
+             style="width:24px;height:24px;">
+        <span>Neo4j</span>
+      </div>
+
+      <!-- Excel-->
+      <div class="tech-badge excel scroll-reveal-scale scroll-stagger-5">
+        <img src="https://www.svgrepo.com/show/373589/e"
+             alt="excel"
+             style="width:24px;height:24px;">
+        <span>Excel</span>
+      </div>
+
+      <!-- Power BI-->
+      <div class="tech-badge powerbi scroll-reveal-scale scroll-stagger-5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+             alt="powerbi"
+             style="width:24px;height:24px;">
+        <span>Power BI</span>
+      </div>
+
+      <!-- HTML -->
+      <div class="tech-badge html scroll-reveal-scale scroll-stagger-1">
+        <i class="fab fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+
+      <!-- CSS -->
+      <div class="tech-badge css scroll-reveal-scale scroll-stagger-2">
+        <i class="fab fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="tech-badge javascript scroll-reveal-scale scroll-stagger-3">
+        <i class="fab fa-js-square"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <!-- Git -->
+      <div class="tech-badge git scroll-reveal-scale scroll-stagger-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+             alt="Git"
+             style="width:24px;height:24px;">
+        <span>Git</span>
+      </div>
+
+      <!-- GitHub -->
+      <div class="tech-badge github scroll-reveal-scale scroll-stagger-5">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <!-- <section id="github-stats" class="github-stats">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GitHub</span>
+                <h2 class="section-title">📊 Developer Statistics</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <div class="card-content">
+                        <h3>🔥 GitHub Activity</h3>
+                        <div class="github-stats-images">
+                            <img src="https://github-readme-stats-rushis-projects-a131b45c.vercel.app/api?username=rushhiii&count_private=true&show_icons=true&theme=nord&bg_color=1a1a2e&title_color=ffd700&icon_color=00bfff&text_color=ffffff&ring_color=00bfff&rank_icon=github&include_all_commits=true&hide_border=true&border_radius=10&cache_seconds=86400" 
+                                 alt="Rushi's GitHub Stats" loading="lazy">
+                            <img src="https://github-readme-streak-stats-rushis-projects-a131b45c.vercel.app?user=rushhiii&theme=merko&hide_border=true&background=1a1a2e&ring=00bfff&fire=ffd700&currStreakLabel=ffd700&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff&cache_seconds=86400" 
+                                 alt="Rushi's GitHub Streak" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="card-content">
+                        <h3>💻 Most Used Languages</h3>
+                        <div class="github-stats-images">
+                            <img src="https://github-readme-stats-rushis-projects-a131b45c.vercel.app/api/top-langs/?username=rushhiii&layout=compact&theme=merko&hide_border=true&bg_color=1a1a2e&title_color=ffd700&text_color=ffffff&cache_seconds=86400&card_width=350" 
+                                 alt="Top Languages" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card wide">
+                    <div class="card-content">
+                        <h3>⭐ Featured Repositories</h3>
+                        <div class="featured-repos">
+                            <div class="repo-card">
+                                <h4>🔧 Scriptable-IOSWidgets</h4>
+                                <p>An evolving library of iOS widgets & scripts to supercharge your Apple experience, all built in Scriptable.</p>
+                                <div class="repo-stats">
+                                    <span class="stat"><i class="fas fa-star"></i> 3</span>
+                                    <span class="stat"><i class="fas fa-code-branch"></i> 1</span>
+                                    <span class="stat">JavaScript</span>
+                                </div>
+                                <a href="https://github.com/rushhiii/Scriptable-IOSWidgets" target="_blank" class="repo-link">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                            <div class="repo-card">
+                                <h4>💻 Rushi-Bashfolio</h4>
+                                <p>A terminal-style interactive portfolio powered by HTML, CSS, and JavaScript — deployed via Netlify.</p>
+                                <div class="repo-stats">
+                                    <span class="stat"><i class="fas fa-star"></i> 0</span>
+                                    <span class="stat"><i class="fas fa-code-branch"></i> 0</span>
+                                    <span class="stat">JavaScript</span>
+                                </div>
+                                <a href="https://github.com/rushhiii/Rushi-Bashfolio" target="_blank" class="repo-link">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                            <div class="repo-card">
+                                <h4>🎓 C-Cpp-Project-Ladder</h4>
+                                <p>Build real C/C++ projects from beginner to advanced — learn core concepts by coding useful, hands-on programs.</p>
+                                <div class="repo-stats">
+                                    <span class="stat"><i class="fas fa-star"></i> 0</span>
+                                    <span class="stat"><i class="fas fa-code-branch"></i> 0</span>
+                                    <span class="stat">C</span>
+                                </div>
+                                <a href="https://github.com/rushhiii/C-Cpp-Project-Ladder" target="_blank" class="repo-link">
+                                    <i class="fab fa-github"></i> View Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="card-content">
+                        <h3>🤝 Let's Connect</h3>
+                        <div class="social-links-github">
+                            <a href="mailto:rushiofficial1205@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/tirth-patel-52a123343" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/rushhiii" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://rushi-bashfolio.netlify.app" target="_blank" class="social-link">
+                                <i class="fas fa-terminal"></i>
+                                <span>Terminal Portfolio</span>
+                            </a>
+                            <a href="https://www.instagram.com/the.tirth12" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                        <div class="profile-views">
+                            <img src="https://komarev.com/ghpvc/?username=rushhiii&label=Profile%20Views&color=800080&labelColor=800080&style=flat" 
+                                 alt="Profile Views" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <div class="project-filters scroll-reveal-scale scroll-stagger-1">
+                <!-- Filter buttons will be dynamically generated from projects.json -->
+            </div>
+
+            <div class="projects-grid scroll-reveal scroll-stagger-2" id="projectsGrid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+
+            <div class="projects-cta scroll-reveal scroll-stagger-3">
+                <p>Interested in seeing more?</p>
+                <a href="https://github.com/wiwibug" class="btn btn-outline" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>View All on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Contact me</span>
+                <h2 class="section-title">Let's Build Something Amazing Together</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card scroll-reveal-left scroll-stagger-1">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>belkis.abdelatif.etu@univ-lille.fr</p>
+                     <a href="mailto:belkis.abdelatif.etu@univ-lille.fr" class="contact-link">Send Message</a>
+                    </div>
+
+                    <div class="contact-card scroll-reveal-left scroll-stagger-2">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Let's connect professionally</p>
+                        <a href="https://www.linkedin.com/in/belkis-abdelatif" target="_blank"
+                            class="contact-link">Connect</a>
+                    </div>
+
+                    <div class="contact-card scroll-reveal-left scroll-stagger-3">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Check out my repositories</p>
+                        <a href="https://github.com/wiwibug" target="_blank" class="contact-link">Follow</a>
+                    </div>
+                </div>
+
+             <form
+  class="contact-form scroll-reveal-right scroll-stagger-2 glow-border"
+  method="POST"
+  action="https://formspree.io/f/mzdkagnr"
+>
+ 
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+
+  <div class="form-group">
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+    >
+  </div>
+
+  <div class="form-group">
+    <input type="text" name="subject" placeholder="Subject" required>
+  </div>
+
+  <div class="form-group">
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      rows="6"
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">
+    <span>Send Message</span>
+    <i class="fas fa-paper-plane"></i>
+  </button>
+</form>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="./assets/ele/letter_logo_gl.png" alt="Logo" class="logo-img">
+                    </div>
+                    <!-- <p>Building the future, one line of code at a time.</p> -->
+                    <p style="font-style:italic"></p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="https://github.com/wiwibug" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/belkis-abdelatif" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:belkis.abdelatif.etu@univ-lille.fr" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+
+
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Belkis Abdelatif</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script>
+        const cards = document.querySelectorAll('.project-card');
+
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transition = 'all 0.05s ease-out';
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transition = 'all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0px) scale(1)';
+            });
+
+            card.addEventListener('mousemove', (e) => {
+                if (!isLoaded) return;
+
+                const cardRect = card.getBoundingClientRect();
+                const cardCenterX = cardRect.left + cardRect.width / 2;
+                const cardCenterY = cardRect.top + cardRect.height / 2;
+
+                const deltaX = e.clientX - cardCenterX;
+                const deltaY = e.clientY - cardCenterY;
+
+                const rotateX = (deltaY / cardRect.height) * -15;
+                const rotateY = (deltaX / cardRect.width) * 15;
+
+                const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+                const maxDistance = Math.sqrt(cardRect.width * cardRect.width + cardRect.height * cardRect.height) / 2;
+                const proximity = 1 - Math.min(distance / maxDistance, 1);
+
+                const scale = 1 + (proximity * 0.05);
+                const translateZ = proximity * 20;
+
+                card.style.transform = `
+                        perspective(1000px) 
+                        rotateX(${rotateX}deg) 
+                        rotateY(${rotateY}deg) 
+                        translateZ(${translateZ}px) 
+                        scale(${scale})
+                    `;
+            });
+        });
+
+    </script>
+</body>
+
+</html>
