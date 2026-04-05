@@ -11,8 +11,19 @@
       "githubUrl": "https://github.com/wiwibug/asthma_watch",
       
       "featured": true
-    }
+    },
 
+    {
+      "id": 2,
+      "title": "Weather ETL",
+      "description": " End-to-end weather data pipeline for French cities using Airflow, PostgreSQL, Docker, Python and Metabase",
+      "technologies": ["Python", "Docker", "Airflow", "Postgresql", "Metabase", "CI/CD"],
+      "category": "Data Engineering",
+      "image": "./assets/projects/sc.gif",
+      "githubUrl": "https://github.com/wiwibug/weather-etl",
+      
+      "featured": true
+    }
 
   ],
   "categories": [
