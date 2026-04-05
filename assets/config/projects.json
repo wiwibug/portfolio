@@ -16,7 +16,7 @@
     {
       "id": 2,
       "title": "Weather ETL",
-      "description": " End-to-end weather data pipeline for French cities using Airflow, PostgreSQL, Docker, Python and Metabase",
+      "description": "Fully automated end-to-end data pipeline that collects daily weather data using the OpenWeatherMap API. The pipeline is orchestrated with Apache Airflow, which triggers a Python ETL job every day, fetching the data then loading the results into a PostgreSQL database. The entire infrastructure runs locally via Docker Compose. Data is visualized through an interactive Metabase dashboard that refreshes automatically as new data comes in",
       "technologies": ["Python", "Docker", "Airflow", "Postgresql", "Metabase", "CI/CD"],
       "category": "Data Engineering",
       "image": "./assets/projects/sc.gif",
